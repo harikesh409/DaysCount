@@ -7,8 +7,8 @@ $(document).ready(function() {
 	$("#dob").css("border-color","red");
 	}
 	else {
-		$("#hide1").show();
-		$("#hide2").show();
+		$("#hide1").slideDown("slow");
+		$("#hide2").slideDown("slow");
 	$("#dob").css("border-color","");
     var bday = Date.parse(birth);
     var today_date = Date();
