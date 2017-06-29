@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HOW MANY DAYS OLD ARE YOU?</title>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="core.js"></script>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<h1 class="text-left">HOW MANY DAYS OLD ARE YOU?</h1>
+<div class="center-block text-center">
+<fieldset>
+  <h3><label for="dob">Enter your date of birth: </label></h3>
+  <input class="form-control-static input-lg" type="date" id="dob" placeholder="mm/dd/yy"><br/><br/>
+  <button id="calc" type="button" name="calc" class="btn btn-success btn-lg">Lets go</button>
+ <div id="hide1">   <h3>Today you are <span id="days_output">.....</span> days old!!</h3></div>
+</fieldset></div>
+<div class="mm" id="hide2">
+<h2>Upcoming Magic Moments</h2>
+  <h3><p>You will be <span id="small_moment">....</span> days old on <span id="small_moment_days"></span>.</p></h3>
+  <h3><p>You will be <span id="big_moment">....</span> days old on <span id="big_moment_days"></span>.</p></h3>
+</div>
+</html>
